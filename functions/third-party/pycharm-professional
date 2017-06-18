@@ -1,0 +1,5 @@
+function pycharm-professional {
+	show_error 'Pycharm install script not implemented'
+	whiptail --title "Not Implemented" --msgbox "Sorry not implemented yet..." 8 78
+	#https://download.jetbrains.com/python/pycharm-professional-2017.1.4.tar.gz
+}

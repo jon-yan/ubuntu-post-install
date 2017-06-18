@@ -1,0 +1,27 @@
+#!/bin/bash
+
+function oh-my-zsh {
+	# Check if already installed...
+	NAME='oh-my-zsh'
+	show_header 'Begin '$NAME' installation'
+	echo 'Checking if '$NAME' is already installed'
+	if [ ! -d "/home/$USER/.oh-my-zsh/" ]; then
+		echo $NAME 'is not installed. Proceeding'
+		show_info 'Downloading '$NAME' install script...'
+		curl -fsSLO https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+		# Don't start zsh env here, run below...
+		sed -i 's/env\szsh//g' install.sh
+		# Run install script
+		show_info 'Executing '$NAME' install script...'
+		sh install.sh
+		# Done
+		show_success 'Done.'
+		whiptail --title "Finished" --msgbox "Installation of $NAME complete" 8 78
+		env zsh
+	else
+		# Already installed TODO: Does not work atm
+		show_sucess $NAME 'already installed.'
+		whiptail --title "Finished" --msgbox "$NAME is already installed." 8 78
+		thirdparty
+	fi
+}

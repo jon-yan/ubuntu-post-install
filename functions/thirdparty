@@ -14,6 +14,8 @@ source $dir/functions/third-party/slack
 source $dir/functions/third-party/spotify
 source $dir/functions/third-party/steam
 source $dir/functions/third-party/sublime-text
+source $dir/functions/third-party/oh-my-zsh
+source $dir/functions/third-party/pycharm-professional
 
 # Install Third-Party Applications
 function thirdparty {
@@ -24,14 +26,16 @@ function thirdparty {
 		--menu "\nWhat third-party software would you like to install?" \
 		--ok-button "Install" \
 		--cancel-button "Go Back" \
-		$LINES $COLUMNS $(( $LINES - 12 )) \
+		$LINES $COLUMNS $(( $LINES - 14 )) \
 		'dropbox'			'Dropbox' \
 		'fontforge'			'FontForge' \
 		'google-chrome'		'Google Chrome' \
 		'minecraft'			'Minecraft' \
+		'oh-my-zsh'		'oh-my-zsh (makes zsh the default shell)' \
 		'oracle-java'		'Oracle Java' \
 		'peek'				'Peek' \
 		'peek'				'Plex Media Server' \
+		'pycharm-professional'	'Pycharm Professional 2017.1.4' \
 		'riot'				'Riot Chat' \
 		'rvm'				'Ruby Version Manager (RVM)' \
 		'slack'				'Slack' \
