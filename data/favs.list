@@ -1,10 +1,8 @@
-gimp
-gifsicle
-gnome-software
-gnome-tweak-tool
-gpick
-inkscape
+vim
 polari
-nautilus
-sparkleshare
 transmission
+vlc
+redshift
+redshift-gtk
+zsh
+terminator
