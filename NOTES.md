@@ -14,3 +14,11 @@ $ sudo update-alternatives --config x-terminal-emulator
 
 ## Automatically add dotfiles .vimrc zsh themes, terminator theme etc...
 
+## Adding network printer.
+A solid guide: [](https://www.josharcher.uk/code/install-brother-printer-hl3040cn-drivers-linux-ubuntu/)
+
+Driver location: [](http://support.brother.com/g/b/downloadlist.aspx?c=us&lang=en&prod=hl3040cn_all&os=128)
+
+ - Download 2nd and 3rd drivers
+ - Set printer settings e.g. IP through localhost:631 (cups server)
+
