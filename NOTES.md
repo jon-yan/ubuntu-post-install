@@ -1,8 +1,15 @@
 # POST INSTALL NOTES:
+Motherboard:ASUS H170-PRO
+Graphics   :RX470 STRIX
 ## ubuntu-desktop:
 amdgpu-pro needs to be installed for HDMI sound output to work.
 Specifically: Version 17.10 is required, 16.40 will crash your login screen.
 http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Install.aspx
+NOTE: there is a compatibility issue due to HWE support in 16.04.3 LTS, so don't bother having GPU graphics yeah...
+
+2017-09-19: This has been fixed in version 17.30, which now supports ubuntu 16.04.3LTS
+[](https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.30-465504.tar.xz)
+
 
 # Additions:
 ## Redshift fix
