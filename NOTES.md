@@ -10,6 +10,9 @@ NOTE: there is a compatibility issue due to HWE support in 16.04.3 LTS, so don't
 2017-09-19: This has been fixed in version 17.30, which now supports ubuntu 16.04.3LTS
 [](https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.30-465504.tar.xz)
 
+**WARNING** NEVER UPGRADE YOUR KERNEL WHEN YOU HAVE A STABLE VERSION OF AMDGPU.
+ALSO, DON'T BUY AMD Graphics cards, they're useless on ubuntu
+
 
 # Additions:
 ## Redshift fix
@@ -29,3 +32,5 @@ Driver location: [](http://support.brother.com/g/b/downloadlist.aspx?c=us&lang=e
  - Download 2nd and 3rd drivers
  - Set printer settings e.g. IP through localhost:631 (cups server)
 
+## Setting fzf up.
+fuzzy search for history, folders and files. Game changer.
