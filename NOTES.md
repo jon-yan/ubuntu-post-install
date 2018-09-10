@@ -34,3 +34,7 @@ Driver location: [](http://support.brother.com/g/b/downloadlist.aspx?c=us&lang=e
 
 ## Setting fzf up.
 fuzzy search for history, folders and files. Game changer.
+
+## Setting up logitech mx-master thumb button
+Thumb button emulates a keyboard press on xev, so it can just be set as a keyboard shortcut.
+Keyboard > Shortcuts > System > Show the overview to the thumb mouse button.
